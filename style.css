@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.container {
+  max-width: 500px;
+  background-color: #1b1924;
+  color: #ffffff;
+  text-align: center;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+img,
+h1,
+textarea,
+button,
+h2 {
+  margin-bottom: 20px;
+}
+
+img {
+  width: 90px;
+  height: 90px;
+}
+
+textarea {
+  width: 400px;
+  height: 120px;
+  padding: 10px;
+  border-radius: 15px;
+  color: #ffffff;
+  background-color: #444059;
+  font-size: 16px;
+}
+
+button {
+  width: 90%;
+  padding: 15px 0;
+  font-size: 22px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(71, 105, 217);
+  color: #ffffff;
+}
+
+#endEl {
+  display: flex;
+  flex-direction: column;
+  user-select: none;
+  align-items: center;
+  gap: 15px;
+}
+
+#endEl p {
+  padding: 15px;
+  background-color: #ffffff;
+  color: black;
+  width: 90%;
+  font-size: 20px;
+  border-radius: 10px;
+  font-family: "Dancing Script", cursive;
+}
+
+#endEl p:hover {
+  background-color: #1b1924;
+  border: 2px solid rgb(71, 105, 217);
+  color: #ffffff;
+  cursor: pointer;
+}
